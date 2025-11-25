@@ -12,6 +12,7 @@ Implementar un sistema que permita gestionar pasajeros utilizando un Árbol Bina
 
 # Características del Sistema
 
+
 1. Estructura del Nodo (Pasajero)
 
 Cada pasajero está representado por una estructura con los siguientes campos:
@@ -21,10 +22,12 @@ Cada pasajero está representado por una estructura con los siguientes campos:
 
 
 
+
 2. Registro de Pasajeros
 
 El sistema permite insertar pasajeros dentro del ABB, ordenados por documento.
 	•	Si el documento ya existe, el nodo es ignorado.
+
 
 
 
@@ -36,14 +39,18 @@ Se pueden mostrar los pasajeros usando recorridos clásicos del ABB:
 	•	Postorden
 
 
+
 4. Conteo de Pasajeros
 
 Función que devuelve cuántos pasajeros están actualmente registrados en el sistema.
 
 
+
 5.  Eliminación de Pasajeros
 
 Se implementa la función para eliminar un pasajero utilizando su número de documento.
+
+
 
  
 6.  Menú Interactivo
